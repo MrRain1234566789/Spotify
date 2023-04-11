@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+#home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+@media (min-width: 834px) {
+  #home-page {
+    margin: 3px;
+  }
+}
+#home-page .card {
+  width: 25.8em;
+  height: 37.9em;
+  border-radius: 24px;
+  background-color: #9296C4;
+  display: grid;
+  justify-content: center;
+}
+#home-page .card .image-container {
+  padding: 1em;
+}
+#home-page .card .image-container img {
+  width: 23.8em;
+  height: 23.8em;
+  border-radius: 16px;
+}
+#home-page .card .content {
+  color: white;
+}
+#home-page .card .content .content-title {
+  font-size: 24px;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+  font-weight: 700;
+}
+#home-page .card .content .content-sub-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+#home-page .card .content .content-sub-title .singer-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+#home-page .card .content .content-sub-title .music-length {
+  display: flex;
+  flex-direction: row;
+}
+#home-page .card .content .content-sub-title .music-length .clock-icon {
+  padding-right: 0.5em;
+}
+#home-page .card .content .brake {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+#home-page .card .content .brake .line {
+  border: 1.5px solid #FFFFFF;
+  width: 21.8em;
+  opacity: 0.2;
+}
+#home-page .card .content .content-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1.5em;
+}
+#home-page .card .content .content-part .content-part-part {
+  margin: 0%;
+  padding: 0%;
+}
+#home-page .card .content .content-part .content-part-part img {
+  width: 2.5em;
+  border-radius: 90px;
+}/*# sourceMappingURL=home-page.css.map */
