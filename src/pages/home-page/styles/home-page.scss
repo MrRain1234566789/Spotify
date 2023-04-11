@@ -1,0 +1,101 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+/// 
+/// 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+#home-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+
+  @media (min-width: 834px) {
+    margin: 3px;
+  }
+
+  .card {
+    width: 25.8em;
+    height: 37.9em;
+    border-radius: 24px;
+    background-color: #9296C4;
+    display: grid;
+    justify-content: center;
+  
+      .image-container {
+        padding: 1em;
+  
+        img {
+          width: 23.8em;
+          height: 23.8em;
+          border-radius: 16px;
+        }
+      }
+  
+      .content {
+        color: white;
+  
+        .content-title {
+          font-size: 24px;
+          padding-left: 1em;
+          padding-bottom: 0.5em;
+          font-weight: 700;
+        }
+  
+        .content-sub-title {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-left: 1.5em;
+          padding-right: 1.5em;
+        
+          .singer-name {
+            font-size: 18px;
+            font-weight: 400;
+          }
+    
+          .music-length {
+            display: flex;
+            flex-direction: row;
+    
+            .clock-icon {
+              padding-right: .5em;
+            }
+          }
+        }
+  
+        .brake {
+          display: flex;
+          justify-content: center;
+          padding-top: 2em;
+  
+          .line {
+            border: 1.5px solid #FFFFFF;
+            width: 21.8em;
+            opacity: 0.2;
+          }
+        }
+  
+        .content-part {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          padding: 1.5em;
+  
+          .content-part-part {
+            margin: 0%;
+            padding: 0%;
+  
+            img {
+              width: 2.5em;
+              border-radius: 90px;
+            }
+          }
+        }
+      }
+  }
+}
+
+
+
